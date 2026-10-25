@@ -1,0 +1,7 @@
+# Batch 5: B2B / hotel mode (part 2) + kids profile
+
+com.sony.dtv.b2b.prosettings
+com.sony.dtv.b2b.rs232csupport
+com.sony.dtv.b2b.webappruntimedrm
+com.sony.dtv.b2b.softap
+com.sony.dtv.kidsprofileadapter

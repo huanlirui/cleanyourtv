@@ -1,0 +1,19 @@
+attempt 0 connect failed: timed out
+attempt 1 boot_completed='1'
+--- HOME resolution ---
+priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+com.gathin.tvhome/.MainActivity
+
+--- focus ---
+  mCurrentFocus=Window{adb0cd3 u0 com.gathin.tvhome/com.gathin.tvhome.MainActivity}
+  mFocusedApp=AppWindowToken{fb5e3dd token=Token{81b6bb4 ActivityRecord{83b6087 u0 com.gathin.tvhome/.MainActivity t1166}}}
+    mFocusedApp=Token{81b6bb4 ActivityRecord{83b6087 u0 com.gathin.tvhome/.MainActivity t1166}}
+
+disabled count: 45
+com.technology.newplayer in disabled: True
+com.cibn.tv in disabled: True
+com.sony.dtv.searchapp in disabled: True
+com.gitvdemo.video in disabled: False
+com.ktcp.tvvideo in disabled: False
+com.dangbei.TVHomeLauncher in disabled: False
+done

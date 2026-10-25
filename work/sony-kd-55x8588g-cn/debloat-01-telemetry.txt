@@ -1,0 +1,20 @@
+# Sony BRAVIA KD-55X8588G (China firmware), device BRAVIA_UR2_4K, Android 10 (API 29)
+# build BRAVIA_UR2_4K_CN-user 10 QTG3.200305.006.S57 661321 release-keys
+# Stock launcher: com.dangbei.TVHomeLauncher (当贝桌面) - left enabled as Home fallback
+# Keep: com.sony.dtv.tvx (Live TV), com.sony.dtv.tvinput.*, tvapi, sonysystemservice,
+# sonyvendorservice, settingsprovider, braviasync*, partnerkeycn (DRM), preinappfiltering,
+# com.sony.dtv.update/systemupdate/upgradesetup/otaurlprovisioning (firmware update),
+# com.sony.dangbeimarket (app store), com.dangbei.screencast (casting), and the streaming apps
+# com.ktcp.tvvideo / com.tencent.qqmusictv / com.xiaodianshi.tv.yst / com.hunantv.market.
+#
+# Batch 1: telemetry / remote support / diagnostics
+
+com.qterics.da.product
+com.sony.dtv.da.service
+com.sonyericsson.idd.agent
+com.sony.dtv.usercontext
+com.sony.dtv.sonybugreportsys
+com.sony.dtv.sonyloglevelsettingsys
+com.mediatek.agent
+com.mediatek.dmagent
+com.jd.smartservicetwo

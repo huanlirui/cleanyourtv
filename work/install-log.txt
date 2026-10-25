@@ -1,0 +1,22 @@
+
+chunk 1/11
+chunk 2/11
+chunk 3/11
+chunk 4/11
+chunk 5/11
+chunk 6/11
+chunk 7/11
+chunk 8/11
+chunk 9/11
+chunk 10/11
+chunk 11/11
+md5 remote: 1830936b6ab2bbd7465ce6cec908d82c local: 1830936b6ab2bbd7465ce6cec908d82c MATCH
+$ pm grant com.gathin.tvhome android.permission.ACCESS_FINE_LOCATION 2>/dev/null; echo location-granted
+location-granted
+$ cmd package compile -m speed -f com.gathin.tvhome
+Success
+$ echo stock launcher left alone
+stock launcher left alone
+$ cmd package set-home-activity --user 0 com.gathin.tvhome/.MainActivity
+Success
+

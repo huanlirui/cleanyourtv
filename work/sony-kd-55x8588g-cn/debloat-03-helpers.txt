@@ -1,0 +1,10 @@
+# Batch 3: ambient / IoT / app helpers / vestigial components
+
+com.sony.dtv.livingfit
+com.sony.dtv.iot
+com.sony.dtv.appassistant
+com.sony.dtv.notificationcenter
+com.sony.dtv.serviceinformation
+com.sony.dtv.bivlinfo
+com.google.android.leanbacklauncher
+com.uei.quicksetsdk.sony

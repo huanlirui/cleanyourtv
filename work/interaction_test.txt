@@ -1,0 +1,4 @@
+after HOME: mCurrentFocus=Window{adb0cd3 u0 com.gathin.tvhome/com.gathin.tvhome.MainActivity}
+nav screenshot saved
+final screenshot saved
+done

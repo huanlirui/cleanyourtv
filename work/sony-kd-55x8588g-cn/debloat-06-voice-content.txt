@@ -1,0 +1,11 @@
+# Batch 6: voice assistant (user chose to disable) + content/casting apps not kept
+# com.mediatek.wfd = Miracast sink (user keeps only Dangbei cast)
+# com.hpplay.happyplay.aw = 乐播投屏 (user keeps only Dangbei cast)
+# com.sony.dtv.networkapp.wifidirect kept enabled (Wi-Fi Direct framework; Dangbei cast may use it)
+
+com.sony.dtv.searchapp
+com.cibn.tv
+com.gitvdemo.video
+com.technology.newplayer
+com.hpplay.happyplay.aw
+com.mediatek.wfd

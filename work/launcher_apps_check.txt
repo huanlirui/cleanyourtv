@@ -1,0 +1,75 @@
+disabled count: 45
+--- LEANBACK_LAUNCHER claimants ---
+13 activities found:
+  Activity #0:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.ktcp.tvvideo/com.ktcp.video.activity.MainActivity
+  Activity #1:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.sony.dangbeimarket/com.dangbeimarket.activity.WelcomeActivity
+  Activity #2:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.sony.dtv.osat.music/com.sonyericsson.music.MusicActivity
+  Activity #3:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.sony.dtv.smartmediaapp/.MainActivity
+  Activity #4:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.sony.dtv.tvx/.MainActivity
+  Activity #5:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.ktcp.video/.activity.MainActivity
+  Activity #6:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.sony.dtv.timers/.activity.TimersMainActivity
+  Activity #7:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.sony.dtv.timers/com.sony.dtv.activity.TimersMainActivity
+  Activity #8:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.gathin.tvhome/.MainActivity
+  Activity #9:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.gitvdemo.video/com.gala.video.app.epg.HomeActivity
+  Activity #10:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.hunantv.market/com.mgtv.tv.launcher.ChannelHomeActivity
+  Activity #11:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.tencent.qqmusictv/.app.activity.AppStarterActivity
+  Activity #12:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.xiaodianshi.tv.yst/.ui.main.MainActivity
+
+--- com.ktcp.tvvideo ---
+User 0: ceDataInode=-4294723702 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+    User 0: ceDataInode=0 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+--- com.ktcp.video ---
+User 0: ceDataInode=-4294691486 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+--- com.technology.newplayer ---
+User 0: ceDataInode=-4294706087 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=3 instant=false virtual=false
+--- com.cibn.tv ---
+User 0: ceDataInode=-4294699058 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=3 instant=false virtual=false
+--- com.gitvdemo.video ---
+User 0: ceDataInode=-4294714664 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=1 instant=false virtual=false
+--- com.xiaodianshi.tv.yst ---
+User 0: ceDataInode=-4294707164 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+--- com.hunantv.market ---
+User 0: ceDataInode=-4294723278 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+--- com.tencent.qqmusictv ---
+User 0: ceDataInode=-4294675250 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+--- com.sony.dtv.tvx ---
+User 0: ceDataInode=-4294715816 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+--- com.dangbei.TVHomeLauncher ---
+User 0: ceDataInode=-4294723445 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+--- com.dangbei.screencast ---
+User 0: ceDataInode=-4294691031 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+--- com.sony.dangbeimarket ---
+User 0: ceDataInode=-4294723602 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+    User 0: ceDataInode=0 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+--- com.sony.dtv.smartmediaapp ---
+User 0: ceDataInode=-4294723551 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=1 instant=false virtual=false
+--- focus ---
+  mCurrentFocus=Window{fff6b13 u0 com.gathin.tvhome/com.gathin.tvhome.MainActivity}
+  mFocusedApp=AppWindowToken{53fc897 token=Token{2e36716 ActivityRecord{2b68431 u0 com.gathin.tvhome/.MainActivity t1168}}}
+    mFocusedApp=Token{2e36716 ActivityRecord{2b68431 u0 com.gathin.tvhome/.MainActivity t1168}}

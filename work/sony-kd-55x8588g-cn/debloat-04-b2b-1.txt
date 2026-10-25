@@ -1,0 +1,10 @@
+# Batch 4: B2B / hotel mode (part 1)
+
+com.sony.dtv.b2b.adminpassword
+com.sony.dtv.b2b.deviceadminsettings
+com.sony.dtv.b2b.frameworkextension
+com.sony.dtv.b2b.hotelmode
+com.sony.dtv.b2b.importexport
+com.sony.dtv.b2b.noderuntime.normal
+com.sony.dtv.b2b.noderuntime.privilege
+com.sony.dtv.b2b.noderuntimeextension.node_12_13_1

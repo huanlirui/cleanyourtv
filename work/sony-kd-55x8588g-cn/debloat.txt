@@ -1,0 +1,80 @@
+# Sony BRAVIA KD-55X8588G (China firmware), device BRAVIA_UR2_4K, Android 10 (API 29)
+# build BRAVIA_UR2_4K_CN-user 10 QTG3.200305.006.S57 661321 release-keys
+# Stock launcher: com.dangbei.TVHomeLauncher (当贝桌面) - left enabled as Home fallback
+# New Home: com.gathin.tvhome (this repo's launcher, Apple-TV style)
+#
+# Kept enabled:
+#   - Live TV / tuner / HDMI inputs: com.sony.dtv.tvx, com.sony.dtv.tvinput.*, tvapi,
+#     sonysystemservice, sonyvendorservice, settingsprovider, braviasync*, partnerkeycn (DRM),
+#     preinappfiltering
+#   - Firmware update: com.sony.dtv.update / systemupdate / upgradesetup / otaurlprovisioning
+#   - App store: com.sony.dangbeimarket (当贝市场)
+#   - Casting: com.dangbei.screencast (当贝投屏), com.sony.dtv.networkapp.wifidirect
+#   - Streaming apps: com.ktcp.tvvideo (腾讯视频/NewTV极光), com.tencent.qqmusictv (QQ音乐),
+#     com.xiaodianshi.tv.yst (哔哩哔哩/云视听小电视), com.hunantv.market (芒果TV)
+#   - com.gitvdemo.video (爱奇艺/银河奇异果): disabled in batch 6, then re-enabled as the
+#     user's dock app - intentionally left enabled
+#
+# Restore (full): tools\restore.ps1 -TvHost <tv ip> -List work\sony-kd-55x8588g-cn\debloat.txt
+#                  -Stock com.dangbei.TVHomeLauncher
+# Restore (single app): adb shell pm enable <package>
+#
+# The 6 numbered debloat-0N-*.txt files are the original batches; this file merges them.
+# recovery.py records live in ~/.cleanyourtv/ for replay-based restore.
+
+# Batch 1: telemetry / remote support / diagnostics
+com.qterics.da.product
+com.sony.dtv.da.service
+com.sonyericsson.idd.agent
+com.sony.dtv.usercontext
+com.sony.dtv.sonybugreportsys
+com.sony.dtv.sonyloglevelsettingsys
+com.mediatek.agent
+com.mediatek.dmagent
+com.jd.smartservicetwo
+
+# Batch 2: demo / shop mode / help content
+com.sony.dtv.demosupport
+com.sony.dtv.demosystemsupport
+com.sony.dtv.multiscreendemo
+com.sony.dtv.braviashow
+com.sony.dtv.customersupport
+com.sony.dtv.smarthelp
+com.sony.dtv.helpguidecontents
+com.sony.dtv.mysony
+
+# Batch 3: ambient / IoT / app helpers / vestigial components
+com.sony.dtv.livingfit
+com.sony.dtv.iot
+com.sony.dtv.appassistant
+com.sony.dtv.notificationcenter
+com.sony.dtv.serviceinformation
+com.sony.dtv.bivlinfo
+com.google.android.leanbacklauncher
+com.uei.quicksetsdk.sony
+
+# Batch 4: B2B / hotel mode (part 1)
+com.sony.dtv.b2b.adminpassword
+com.sony.dtv.b2b.deviceadminsettings
+com.sony.dtv.b2b.frameworkextension
+com.sony.dtv.b2b.hotelmode
+com.sony.dtv.b2b.importexport
+com.sony.dtv.b2b.noderuntime.normal
+com.sony.dtv.b2b.noderuntime.privilege
+com.sony.dtv.b2b.noderuntimeextension.node_12_13_1
+
+# Batch 5: B2B / hotel mode (part 2) + kids profile
+com.sony.dtv.b2b.prosettings
+com.sony.dtv.b2b.rs232csupport
+com.sony.dtv.b2b.webappruntimedrm
+com.sony.dtv.b2b.softap
+com.sony.dtv.kidsprofileadapter
+
+# Batch 6: voice assistant (user chose to disable) + content/casting apps not kept
+# com.mediatek.wfd = Miracast sink (user keeps only Dangbei cast)
+# com.hpplay.happyplay.aw = 乐播投屏 (user keeps only Dangbei cast)
+com.sony.dtv.searchapp
+com.cibn.tv
+com.technology.newplayer
+com.hpplay.happyplay.aw
+com.mediatek.wfd

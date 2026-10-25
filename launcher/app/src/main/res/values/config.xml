@@ -15,12 +15,13 @@
         <item>com.amazon.tv.launcher/com.amazon.tv.launcher.ui.MainSettingsActivity</item>
     </string-array>
 
-    <!-- Apps pinned to the dock row at the bottom, in this order. Missing apps are skipped. -->
+    <!-- Apps pinned to the dock row at the bottom, in this order. Missing apps are skipped.
+         Sony KD-55X8588G (BRAVIA_UR2_4K, CN firmware): 爱奇艺(银河奇异果), 腾讯视频, 哔哩哔哩小电视.
+         优酷TV not preinstalled; install it from 当贝市场 and add its package here to dock it. -->
     <string-array name="dock_apps">
-        <item>com.netflix.ninja</item>
-        <item>com.amazon.amazonvideo.livingroom</item>
-        <item>com.google.android.youtube.tv</item>
-        <item>in.startv.hotstar</item>
+        <item>com.gitvdemo.video</item>
+        <item>com.ktcp.tvvideo</item>
+        <item>com.xiaodianshi.tv.yst</item>
     </string-array>
     <!-- With fewer dock_apps than columns (or a dock app that is not installed), the free dock slots take
          the first grid apps, so the dock never shows a gap. false leaves them empty (#162); a theme can
@@ -31,10 +32,11 @@
     <string-array name="hidden_apps">
         <item>com.mediatek.wwtv.tvcenter</item>
         <item>com.mitv.gallery</item>
+        <item>com.sony.dtv.tvx</item>
     </string-array>
 
     <!-- The TV's Live TV / tuner app, offered at the end of the Inputs menu. Leave empty to omit. -->
-    <string name="live_tv_package" translatable="false">com.mediatek.wwtv.tvcenter</string>
+    <string name="live_tv_package" translatable="false">com.sony.dtv.tvx</string>
 
     <!-- Open the Live TV app above the first time Home comes up after the TV is switched on, for sets that are
          mostly used for broadcast TV. Once per boot: Home after that stays Home. Can also be set with

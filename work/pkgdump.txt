@@ -1,0 +1,79 @@
+$ for p in com.sony.dtv.frame com.sony.dtv.ondservice com.sony.dtv.braviashow com.sony.dtv.recapp com.sony.dtv.appassistant com.sony.dtv.notificationcenter com.sony.dtv.reminderservice com.sony.dtv.searchapp com.sony.dtv.upgradesetup com.sony.dtv.homeaccount com.sony.dtv.homenetwork com.sony.dtv.controlproxy com.sony.dtv.browser.webappservice com.sony.dtv.b2b.softap com.sony.dtv.b2b.noderuntimeextension.node_12_13_1 com.google.android.leanbacklauncher com.technology.newplayer com.hunantv.market com.gitvdemo.video com.sony.dtv.servicemode com.sony.dtv.broadcastservicesetup com.sony.dtv.tvpositionscreen; do echo "===$p"; dumpsys package $p 2>/dev/null | grep -E "versionName=|MainActivity|Activity Resolver Table|Service Resolver Table|Receiver Resolver Table" | head -n 20; done; true
+===com.sony.dtv.frame
+    versionName=1.0
+===com.sony.dtv.ondservice
+    versionName=V20.0.0.1.0
+===com.sony.dtv.braviashow
+Service Resolver Table:
+    versionName=8.0.0
+===com.sony.dtv.recapp
+Activity Resolver Table:
+        6c6f6ba com.sony.dtv.recapp/.MainActivity filter 247efac
+        6c6f6ba com.sony.dtv.recapp/.MainActivity filter 247efac
+Receiver Resolver Table:
+    versionName=5.2.11-reminder
+===com.sony.dtv.appassistant
+Activity Resolver Table:
+        2f7ab99 com.sony.dtv.appassistant/.MainActivity filter 9f318d9
+    versionName=8.0.2
+===com.sony.dtv.notificationcenter
+Activity Resolver Table:
+Receiver Resolver Table:
+    versionName=2.0.17
+===com.sony.dtv.reminderservice
+Receiver Resolver Table:
+    versionName=V20.0.0.1.7
+===com.sony.dtv.searchapp
+Activity Resolver Table:
+Receiver Resolver Table:
+Service Resolver Table:
+    versionName=8.3.13
+===com.sony.dtv.upgradesetup
+Activity Resolver Table:
+Service Resolver Table:
+    versionName=V20.0.0.1.4
+===com.sony.dtv.homeaccount
+Activity Resolver Table:
+Receiver Resolver Table:
+    versionName=1.3.8
+===com.sony.dtv.homenetwork
+Activity Resolver Table:
+Receiver Resolver Table:
+    versionName=6.0.A.2.6
+===com.sony.dtv.controlproxy
+Service Resolver Table:
+    versionName=1.0.3
+===com.sony.dtv.browser.webappservice
+    versionName=2.1.1+0
+===com.sony.dtv.b2b.softap
+Receiver Resolver Table:
+    versionName=1.0.6
+===com.sony.dtv.b2b.noderuntimeextension.node_12_13_1
+    versionName=1.0.0
+===com.google.android.leanbacklauncher
+Receiver Resolver Table:
+    versionName=90.11.5-100-4440948
+===com.technology.newplayer
+Activity Resolver Table:
+    versionName=2.4.0.2
+===com.hunantv.market
+Activity Resolver Table:
+Receiver Resolver Table:
+Service Resolver Table:
+    versionName=7.0.912.458.3.XDBSN_TVAPP.0.0_Release
+===com.gitvdemo.video
+Activity Resolver Table:
+Receiver Resolver Table:
+Service Resolver Table:
+    versionName=16.10.0.221992
+===com.sony.dtv.servicemode
+Activity Resolver Table:
+    versionName=10.2.2.1
+===com.sony.dtv.broadcastservicesetup
+Activity Resolver Table:
+Receiver Resolver Table:
+Service Resolver Table:
+    versionName=V20.0.0.1.39
+===com.sony.dtv.tvpositionscreen
+Activity Resolver Table:
+    versionName=5.3.A.0.4

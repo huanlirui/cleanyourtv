@@ -1,0 +1,10 @@
+# Batch 2: demo / shop mode / help content
+
+com.sony.dtv.demosupport
+com.sony.dtv.demosystemsupport
+com.sony.dtv.multiscreendemo
+com.sony.dtv.braviashow
+com.sony.dtv.customersupport
+com.sony.dtv.smarthelp
+com.sony.dtv.helpguidecontents
+com.sony.dtv.mysony

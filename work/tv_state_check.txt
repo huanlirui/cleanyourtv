@@ -1,0 +1,4 @@
+disabled count: 45
+missing from disabled (should be none): none
+gitvdemo (爱奇艺) still disabled? False
+HOME resolves to: com.dangbei.TVHomeLauncher/com.dangbei.leard.leradlauncher.ui.sony.main.MainActivity

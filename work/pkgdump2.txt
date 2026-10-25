@@ -1,0 +1,158 @@
+$ for p in com.sony.dtv.frame com.sony.dtv.ondservice com.sony.dtv.braviashow com.sony.dtv.appassistant com.sony.dtv.searchapp com.sony.dtv.upgradesetup com.sony.dtv.homeaccount com.sony.dtv.homenetwork com.sony.dtv.controlproxy com.technology.newplayer com.gitvdemo.video com.google.android.leanbacklauncher com.sony.dtv.notificationcenter com.sony.dtv.reminderservice; do echo "===$p"; dumpsys package $p 2>/dev/null | grep "$p/" | head -n 30; done; true
+===com.sony.dtv.frame
+===com.sony.dtv.ondservice
+    packageSetting=PackageSetting{722715d com.sony.dtv.ondservice/1000}
+      PackageSetting{722715d com.sony.dtv.ondservice/1000}
+===com.sony.dtv.braviashow
+        da539d6 com.sony.dtv.braviashow/.BraviaDayDreamService filter 39d5c37 permission android.permission.BIND_DREAM_SERVICE
+===com.sony.dtv.appassistant
+        2f7ab99 com.sony.dtv.appassistant/.MainActivity filter 9f318d9
+  com.sony.dtv.appassistant/androidx.core.content.FileProvider:
+    Provider{b12de5e com.sony.dtv.appassistant/androidx.core.content.FileProvider}
+    Provider{b12de5e com.sony.dtv.appassistant/androidx.core.content.FileProvider}
+===com.sony.dtv.searchapp
+        18d95d4 com.sony.dtv.searchapp/com.github.mzule.activityrouter.router.RouterActivity filter 2aa0aeb
+        2e7937d com.sony.dtv.searchapp/com.sony.dtv.search.app.VoiceSearchActivity filter e91e9ad
+        b381272 com.sony.dtv.searchapp/com.sony.dtv.speechrecog.privacy.GuidedStepActivity filter 4f4ed2e
+        2aac6c3 com.sony.dtv.searchapp/com.ktcp.aiagent.function.activity.VoiceFunctionActivity filter 5d3a165
+        9183b40 com.sony.dtv.searchapp/com.ktcp.aiagent.function.activity.SkillsIntroductionActivity filter f66ae3a
+        4deea79 com.sony.dtv.searchapp/com.ktcp.tvagent.voice.debug.TestConfigActivity filter 61b0a5c
+        f0e3be com.sony.dtv.searchapp/com.sony.dtv.assist.AssistProxyActivity filter 11073a9
+        ee90c1f com.sony.dtv.searchapp/com.sony.dtv.speechrecog.settings.VoicePreferenceActivity filter c2130cf
+        f0e3be com.sony.dtv.searchapp/com.sony.dtv.assist.AssistProxyActivity filter dc10073
+        9e5cb6c com.sony.dtv.searchapp/com.sony.dtv.assist.RequestPermissionActivity filter 22164e2
+        f0e3be com.sony.dtv.searchapp/com.sony.dtv.assist.AssistProxyActivity filter 5426b30
+        c5ab535 com.sony.dtv.searchapp/com.ktcp.tvagent.open.AiAgentOpenReceiver filter 71f0060
+        1d37dca com.sony.dtv.searchapp/com.ktcp.tvagent.config.VideoConfigReceiver filter 66aec63
+        b9c4b3b com.sony.dtv.searchapp/com.ktcp.tvagent.alarm.AlarmReceiver filter 4909919
+        b1a3258 com.sony.dtv.searchapp/com.sony.dtv.search.utils.BootReceiver filter e7c7048
+        d8e6fb1 com.sony.dtv.searchapp/com.ktcp.tvagent.voice.debug.VoiceTestProtectedReceiver filter a0c48f4
+        f93ac96 com.sony.dtv.searchapp/com.ktcp.tvagent.service.VoiceKeyReceiver filter 62d981d
+        27a6017 com.sony.dtv.searchapp/com.ktcp.tvagent.search.SearchTestReceiver filter 28cfdde
+        1d37dca com.sony.dtv.searchapp/com.ktcp.tvagent.config.VideoConfigReceiver filter 66aec63
+        2c1c04 com.sony.dtv.searchapp/com.ktcp.tvagent.voice.debug.VoiceTestReceiver filter a9c6ac7
+        2c1c04 com.sony.dtv.searchapp/com.ktcp.tvagent.voice.debug.VoiceTestReceiver filter a9c6ac7
+        26955ed com.sony.dtv.searchapp/com.sony.dtv.speechrecog.settings.PrivacyBroadcastReceiver filter e017406
+        f93ac96 com.sony.dtv.searchapp/com.ktcp.tvagent.service.VoiceKeyReceiver filter 62d981d
+        f93ac96 com.sony.dtv.searchapp/com.ktcp.tvagent.service.VoiceKeyReceiver filter 62d981d
+        2c1c04 com.sony.dtv.searchapp/com.ktcp.tvagent.voice.debug.VoiceTestReceiver filter a9c6ac7
+        b1a3258 com.sony.dtv.searchapp/com.sony.dtv.search.utils.BootReceiver filter e7c7048
+        2c1c04 com.sony.dtv.searchapp/com.ktcp.tvagent.voice.debug.VoiceTestReceiver filter a9c6ac7
+        1d37dca com.sony.dtv.searchapp/com.ktcp.tvagent.config.VideoConfigReceiver filter 66aec63
+        f93ac96 com.sony.dtv.searchapp/com.ktcp.tvagent.service.VoiceKeyReceiver filter 62d981d
+        2c1c04 com.sony.dtv.searchapp/com.ktcp.tvagent.voice.debug.VoiceTestReceiver filter a9c6ac7
+===com.sony.dtv.upgradesetup
+        38259a0 com.sony.dtv.upgradesetup/.UpgradeSetupActivity filter ee9e29e
+        78f1959 com.sony.dtv.upgradesetup/.UpgradeSetupTriggerService filter d5d17f
+    packageSetting=PackageSetting{6436fcc com.sony.dtv.upgradesetup/10034}
+===com.sony.dtv.homeaccount
+        479b5f7 com.sony.dtv.homeaccount/.activity.InitialSetupActivity filter 6d49f4a
+        14dec64 com.sony.dtv.homeaccount/.activity.TestActivity filter d34179f
+        58c4ecd com.sony.dtv.homeaccount/.activity.SonyPrivacyPolicyScreen filter 50d6cb5
+        c4e3382 com.sony.dtv.homeaccount/.activity.LoginActivity filter 25ab0ec
+        989ba93 com.sony.dtv.homeaccount/.receivers.AuthenticateReceiver filter e4c8ebb
+    packageSetting=PackageSetting{43005ce com.sony.dtv.homeaccount/10029}
+    packageSetting=PackageSetting{43005ce com.sony.dtv.homeaccount/10029}
+  com.sony.dtv.homeaccount/.contentproviders.AccountTokenIdProvider:
+    Provider{6d18a85 com.sony.dtv.homeaccount/.contentproviders.AccountTokenIdProvider}
+  com.sony.dtv.homeaccount/.contentproviders.ISWRegisterQRCodeProvider:
+    Provider{74ab0da com.sony.dtv.homeaccount/.contentproviders.ISWRegisterQRCodeProvider}
+    Provider{6d18a85 com.sony.dtv.homeaccount/.contentproviders.AccountTokenIdProvider}
+    Provider{74ab0da com.sony.dtv.homeaccount/.contentproviders.ISWRegisterQRCodeProvider}
+===com.sony.dtv.homenetwork
+        34e0ae7 com.sony.dtv.homenetwork/.HomeNetworkSettingsActivity filter 80cd1ca
+        5373694 com.sony.dtv.homenetwork/.PowerConsumptionActivity filter 19d0f3b
+        59b853d com.sony.dtv.homenetwork/.slice.receiver.CustomDeviceReceiver filter bc3f9ed
+        ffe8132 com.sony.dtv.homenetwork/.slice.receiver.RendererToggleReceiver filter d25a658
+        9666e83 com.sony.dtv.homenetwork/.slice.receiver.AccessControlReceiver filter 1c6d3b1
+        29b2800 com.sony.dtv.homenetwork/.slice.receiver.IpControlReceiver filter 97ad004
+        2403839 com.sony.dtv.homenetwork/.slice.receiver.AuthenticationModeReceiver filter 1c36417
+        b8f7e7e com.sony.dtv.homenetwork/.slice.receiver.CustomSettingReceiver filter 20e4096
+        8176fdf com.sony.dtv.homenetwork/.slice.HomeNetworkSliceProvider filter 2e5d022
+    packageSetting=PackageSetting{5a1048a com.sony.dtv.homenetwork/10007}
+    packageSetting=PackageSetting{5a1048a com.sony.dtv.homenetwork/10007}
+    packageSetting=PackageSetting{5a1048a com.sony.dtv.homenetwork/10007}
+  com.sony.dtv.homenetwork/.provider.HomeServerProvider:
+    Provider{7197bd7 com.sony.dtv.homenetwork/.provider.HomeServerProvider}
+  com.sony.dtv.homenetwork/.slice.HomeNetworkSliceProvider:
+    Provider{8176fdf com.sony.dtv.homenetwork/.slice.HomeNetworkSliceProvider}
+  com.sony.dtv.homenetwork/.provider.DmrProvider:
+    Provider{8df6cc4 com.sony.dtv.homenetwork/.provider.DmrProvider}
+    Provider{7197bd7 com.sony.dtv.homenetwork/.provider.HomeServerProvider}
+    Provider{8df6cc4 com.sony.dtv.homenetwork/.provider.DmrProvider}
+    Provider{8176fdf com.sony.dtv.homenetwork/.slice.HomeNetworkSliceProvider}
+===com.sony.dtv.controlproxy
+        4c2a1a9 com.sony.dtv.controlproxy/.services.ControlTraitNotifyService filter d14eab6
+  com.sony.dtv.controlproxy/.InputProvider:
+    Provider{5d6832e com.sony.dtv.controlproxy/.InputProvider}
+    Provider{5d6832e com.sony.dtv.controlproxy/.InputProvider}
+===com.technology.newplayer
+        3346790 com.technology.newplayer/.activity.WelcomeActivity filter ad15915
+        3346790 com.technology.newplayer/.activity.WelcomeActivity filter 40312cc
+    packageSetting=PackageSetting{86f20af com.technology.newplayer/10139}
+  com.technology.newplayer/.contentProvider.OttContentProvider:
+    Provider{9a06cbc com.technology.newplayer/.contentProvider.OttContentProvider}
+  com.technology.newplayer/com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider:
+    Provider{fd7c445 com.technology.newplayer/com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider}
+  com.technology.newplayer/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{f09c79a com.technology.newplayer/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.technology.newplayer/androidx.core.content.FileProvider:
+    Provider{d1718cb com.technology.newplayer/androidx.core.content.FileProvider}
+  com.technology.newplayer/.contentProvider.UserIdProvider:
+    Provider{46598a8 com.technology.newplayer/.contentProvider.UserIdProvider}
+    Provider{d1718cb com.technology.newplayer/androidx.core.content.FileProvider}
+    Provider{9a06cbc com.technology.newplayer/.contentProvider.OttContentProvider}
+    Provider{fd7c445 com.technology.newplayer/com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider}
+    Provider{46598a8 com.technology.newplayer/.contentProvider.UserIdProvider}
+    Provider{f09c79a com.technology.newplayer/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+===com.gitvdemo.video
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 2525f8a
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 4eae9fb
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 16b7c32
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter ba1af39
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter a73edf
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter b6505f5
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter e724a18
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 9f42ad7
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter b4defc4
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter b1755e2
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 71c4430
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter b839dcf
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 4c45665
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter a4647eb
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter aa8f3e1
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter c3f77c7
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 1dfed1d
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 3b1c963
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 1933e19
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter a6d98bf
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 7ee6b8c
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 7f06aea
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 1dcb478
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter fe24bb6
+        ab236aa com.gitvdemo.video/com.gala.video.app.player.PlayerActivity filter aa9cfbc
+        c05429b com.gitvdemo.video/com.gala.video.app.player.extra.debug.IMediaPlayerDemoActivity filter c91aaf2
+        76ac638 com.gitvdemo.video/com.gala.video.app.albumdetail.AlbumDetailActivity filter a1889bb
+        82ba611 com.gitvdemo.video/com.gala.video.app.multiscreen.interconnect.ui.InterconnectActivity filter bb5bcf9
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 86ed1f4
+        9cf4595 com.gitvdemo.video/com.gala.video.app.epg.LoadingActivity filter 4d4fead
+===com.google.android.leanbacklauncher
+        914c0b6 com.google.android.leanbacklauncher/.BootCompletedReceiver filter 55d98b1
+===com.sony.dtv.notificationcenter
+        3d357f8 com.sony.dtv.notificationcenter/.NotificationCenterActivity filter 9a0226e
+        3d357f8 com.sony.dtv.notificationcenter/.NotificationCenterActivity filter 2c05d0f
+        79a34d1 com.sony.dtv.notificationcenter/.NotificationCenterReceiver filter dc619c
+        79a34d1 com.sony.dtv.notificationcenter/.NotificationCenterReceiver filter dc619c
+        79a34d1 com.sony.dtv.notificationcenter/.NotificationCenterReceiver filter dc619c
+        79a34d1 com.sony.dtv.notificationcenter/.NotificationCenterReceiver filter dc619c
+    packageSetting=PackageSetting{fe1fba4 com.sony.dtv.notificationcenter/10067}
+===com.sony.dtv.reminderservice
+        36dad09 com.sony.dtv.reminderservice/.ReminderReceiver filter 3b61146
+        36dad09 com.sony.dtv.reminderservice/.ReminderReceiver filter 3b61146
+        36dad09 com.sony.dtv.reminderservice/.ReminderReceiver filter 3b61146
+        36dad09 com.sony.dtv.reminderservice/.ReminderReceiver filter 3b61146
+    packageSetting=PackageSetting{c071b3c com.sony.dtv.reminderservice/10069}
+    packageSetting=PackageSetting{c071b3c com.sony.dtv.reminderservice/10069}
+  com.sony.dtv.reminderservice/.ReminderProvider:
+    Provider{c56794b com.sony.dtv.reminderservice/.ReminderProvider}
+    Provider{c56794b com.sony.dtv.reminderservice/.ReminderProvider}
